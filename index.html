@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link id="style" rel="stylesheet" href="assets/styles/index.css">
+  <title>Página Inicial</title>
+</head>
+<body>
+  
+  <nav>
+    <div id="menu" class="menu">
+      <div>
+        <button onclick="toggleSidebar()" class="btn-side-bar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="part-1">
+        <div class="logo">
+          <img id="logo" src="assets/img/logoSN1.png" alt="">
+        </div>
+        <div id="menu-opt" class="menu-opt">
+          <div class="logo-side-bar">
+            <img id="logo2" src="assets/img/logoSN1.png" alt="">
+          </div>
+          <div tabindex="0" onclick="closeSidebar()" class="opts">
+            <a href="#subjects">Matérias <img id="seta" src="assets/img/seta.png" alt="seta"></a>
+          </div>
+          <div tabindex="0" onclick="closeSidebar()" class="opts">
+            <a href="#about-me">Sobre Mim</a>
+          </div>
+          <div tabindex="0" onclick="closeSidebar()" class="opts">
+            <a href="#contact-me">Contate-nos</a>
+          </div>
+          <div class="search search-2">
+            <div>
+              <img id="lupa" src="assets/img/lupa.png" alt="lupa azul para navegação">
+            </div>
+            <div>
+              <input type="text">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-block-menu">
+        <div class="search">
+          <div>
+            <img id="lupa2" src="assets/img/lupa.png" alt="lupa azul para navegação">
+          </div>
+          <div>
+            <input type="text">
+          </div>
+        </div>
+        <div class="toggle">
+          <input type="checkbox" name="checkbox" id="checkbox">
+          <label for="checkbox" class="icons">
+            <img id="lua" src="assets/img/lua-crescente2.png" alt="moon"/>
+            <img id="sol" src="assets/img/brilho-do-sol.png" alt="sun"/>
+            
+            <div class="ball"></div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section tabindex="0" onclick="closeSidebar()" id="intro">
+      <div class="intro-lft">
+        <div class="text text-1">
+          <h1>Apenas um estudante tentando te ajudar <br>nos estudos</h1>
+        </div>
+        <div class="btn-intro">
+          <a href="#subjects">Ver Matérias<img src="assets/img/seta2.png" alt="seta"></a>
+        </div>
+      </div>
+      <div class="img-1">
+        <img src="assets/img/Thesis-rafiki.svg" alt="">
+      </div>
+  </section>
+
+  
+  <div id="form-1"></div>
+  <div id="form-2"></div>
+  <section tabindex="0" onclick="closeSidebar()" id="about-me">
+    <div class="img-2">
+      <img src="assets/img/Code typing-amico.svg" alt="">
+    </div>
+    <div class="text text-2">
+      <h1>A ideia é auxiliar você nas matérias que eu tive que passar, tentando simplificar e deixar mais fácil o entendimento</h1>
+    </div>
+  </section>
+
+  <section tabindex="0" onclick="closeSidebar()" id="subjects">
+    <div class="back-ground-2">
+        <!-- <div id="form-3"></div>
+        <div id="form-4"></div> -->
+    </div>
+    <div class="title-subject">
+      <h1>Matérias</h1>
+    </div>
+    <div class="card-set">
+      <div class="card">
+        <div class="title-card"><h2>Análise e Projeto de Algoritmos</h2></div>
+        <div class="topics"><p>. Birsk dasin npasnd defees</p></div>
+        <div class="topics"><p>. Defefs feid dei dpena</p></div>
+        <div class="topics"><p>. Ve onea d-eadea deoadid</p></div>
+        <div class="topics"><p>. Maneisd dein deinaso</</p></div>
+        <div class="topics"><p>. Por deisnd idne fenfete</p></div>
+        <div class="btn-subject">
+          <div><a href="">Ver Material</a></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title-card"><h2>Análise e Projeto de Algoritmos</h2></div>
+        <div class="topics"><p>. Birsk dasin npasnd defees</p></div>
+        <div class="topics"><p>. Defefs feid dei dpena</p></div>
+        <div class="topics"><p>. Ve onea d-eadea deoadid</p></div>
+        <div class="topics"><p>. Maneisd dein deinaso</</p></div>
+        <div class="topics"><p>. Por deisnd idne fenfete</p></div>
+        <div class="btn-subject">
+          <div><a href="">Ver Material</a></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title-card"><h2>Análise e Projeto de Algoritmos</h2></div>
+        <div class="topics"><p>. Birsk dasin npasnd defees</p></div>
+        <div class="topics"><p>. Defefs feid dei dpena</p></div>
+        <div class="topics"><p>. Ve onea d-eadea deoadid</p></div>
+        <div class="topics"><p>. Maneisd dein deinaso</</p></div>
+        <div class="topics"><p>. Por deisnd idne fenfete</p></div>
+        <div class="btn-subject">
+          <div><a href="">Ver Material</a></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title-card"><h2>Análise e Projeto de Algoritmos</h2></div>
+        <div class="topics"><p>. Birsk dasin npasnd defees</p></div>
+        <div class="topics"><p>. Defefs feid dei dpena</p></div>
+        <div class="topics"><p>. Ve onea d-eadea deoadid</p></div>
+        <div class="topics"><p>. Maneisd dein deinaso</</p></div>
+        <div class="topics"><p>. Por deisnd idne fenfete</p></div>
+        <div class="btn-subject">
+          <div><a href="">Ver Material</a></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title-card"><h2>Análise e Projeto de Algoritmos</h2></div>
+        <div class="topics"><p>. Birsk dasin npasnd defees</p></div>
+        <div class="topics"><p>. Defefs feid dei dpena</p></div>
+        <div class="topics"><p>. Ve onea d-eadea deoadid</p></div>
+        <div class="topics"><p>. Maneisd dein deinaso</</p></div>
+        <div class="topics"><p>. Por deisnd idne fenfete</p></div>
+        <div class="btn-subject">
+          <div><a href="">Ver Material</a></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title-card"><h2>Análise e Projeto de Algoritmos</h2></div>
+        <div class="topics"><p>. Birsk dasin npasnd defees</p></div>
+        <div class="topics"><p>. Defefs feid dei dpena</p></div>
+        <div class="topics"><p>. Ve onea d-eadea deoadid</p></div>
+        <div class="topics"><p>. Maneisd dein deinaso</</p></div>
+        <div class="topics"><p>. Por deisnd idne fenfete</p></div>
+        <div class="btn-subject">
+          <div><a href="">Ver Material</a></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title-card"><h2>Análise e Projeto de Algoritmos</h2></div>
+        <div class="topics"><p>. Birsk dasin npasnd defees</p></div>
+        <div class="topics"><p>. Defefs feid dei dpena</p></div>
+        <div class="topics"><p>. Ve onea d-eadea deoadid</p></div>
+        <div class="topics"><p>. Maneisd dein deinaso</</p></div>
+        <div class="topics"><p>. Por deisnd idne fenfete</p></div>
+        <div class="btn-subject">
+          <div><a href="">Ver Material</a></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title-card"><h2>Análise e Projeto de Algoritmos</h2></div>
+        <div class="topics"><p>. Birsk dasin npasnd defees</p></div>
+        <div class="topics"><p>. Defefs feid dei dpena</p></div>
+        <div class="topics"><p>. Ve onea d-eadea deoadid</p></div>
+        <div class="topics"><p>. Maneisd dein deinaso</</p></div>
+        <div class="topics"><p>. Por deisnd idne fenfete</p></div>
+        <div class="btn-subject">
+          <a href="">Ver Material</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title-card"><h2>Análise e Projeto de Algoritmos</h2></div>
+        <div class="topics"><p>. Birsk dasin npasnd defees</p></div>
+        <div class="topics"><p>. Defefs feid dei dpena</p></div>
+        <div class="topics"><p>. Ve onea d-eadea deoadid</p></div>
+        <div class="topics"><p>. Maneisd dein deinaso</</p></div>
+        <div class="topics"><p>. Por deisnd idne fenfete</p></div>
+        <div class="btn-subject">
+          <div><a href="">Ver Material</a></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title-card"><h2>Análise e Projeto de Algoritmos</h2></div>
+        <div class="topics"><p>. Birsk dasin npasnd defees</p></div>
+        <div class="topics"><p>. Defefs feid dei dpena</p></div>
+        <div class="topics"><p>. Ve onea d-eadea deoadid</p></div>
+        <div class="topics"><p>. Maneisd dein deinaso</</p></div>
+        <div class="topics"><p>. Por deisnd idne fenfete</p></div>
+        <div class="btn-subject">
+          <div><a href="">Ver Material</a></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="title-card"><h2>Análise e Projeto de Algoritmos</h2></div>
+        <div class="topics"><p>. Birsk dasin npasnd defees</p></div>
+        <div class="topics"><p>. Defefs feid dei dpena</p></div>
+        <div class="topics"><p>. Ve onea d-eadea deoadid</p></div>
+        <div class="topics"><p>. Maneisd dein deinaso</</p></div>
+        <div class="topics"><p>. Por deisnd idne fenfete</p></div>
+        <div class="btn-subject">
+          <div><a href="">Ver Material</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer" class="main-footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="https://github.com/GabrielWhite96">Made by Gabriel Fernandes to Wekisley</a></p>
+  </footer>
+  
+  <script src="assets/js/sideBar.js"></script>
+  <script src="assets/js/darkTheme.js"></script>
+</body>
+</html> 

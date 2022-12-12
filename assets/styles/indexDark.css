@@ -1,0 +1,260 @@
+:root {
+  --primary-color: #056CF2;
+  --secondary-color: #0554F2;
+  --tertiary-color: #26A653;
+  --fourth-color: #F2EA7E;
+  --white-color: #181818;
+  --gap: 3rem; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--white-color);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.menu {
+  margin: 10px 110px;
+  display: flex;
+  border-bottom: solid  #056CF2;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.part-1 {
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  margin: 0px 60px;
+  color: var(--secondary-color);
+}
+
+.logo img {
+  width: 140px;
+}
+
+.menu-opt {
+  margin-left: 40px;
+}
+
+.menu-opt a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0px 30px;
+}
+
+.menu-opt img {
+  width: 10px;
+  transform: rotate(90deg);
+}
+
+.search {
+  display: flex ;
+  background-color: #c2c2c2;
+  padding: 10px;
+  margin-right: 40px;
+  border-radius: 50px;
+}
+
+.search img {
+  width: 20px;
+}
+
+.search input {
+  background-color: #c2c2c2;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 0px 4px;
+}
+
+#intro {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  width: 89%;
+  margin: 0 auto;
+}
+
+.intro-lft, .img-1 {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.intro-lft {
+  padding-left: 90px;
+  padding-top: 140px;
+  font-size: 45px;
+  letter-spacing: 4px;
+  color: var(--secondary-color);
+  line-height: 90px;
+}
+
+.text h1 {
+  font-weight: 600;
+}
+
+.btn-intro {
+  margin-top: 40px;
+}
+
+.btn-intro a {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 5px 20px;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.btn-intro img {
+  width: 13px;
+  margin-left: 5px;
+}
+
+.img-1 {
+  transform: scaleX(-1);
+}
+
+#form-1 {
+  width: 100%;
+  height: 800px;
+  border-left: 99.2vmax solid var(--fourth-color);
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  position: absolute;
+}
+
+#form-2 {
+  position: absolute;
+  margin-top: 40px;
+  width: 100%;
+  height: 800px;
+  border-left: 99.2vmax solid var(--primary-color);
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+}
+
+#about-me {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  width: 89%;
+  margin: 0 auto;
+}
+
+.text-2, .img-2{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.img-2 {
+  margin-top: 100px;
+}
+
+.text-2 {
+  width: 90%;
+}
+
+.text-2 h1 {
+  text-align: right;
+  padding-top: 200px;
+  font-size: 60px;
+  color: var(--white-color);
+  line-height: 90px;
+  font-weight: 600;
+}
+
+#form-3 {
+  width: 100%;
+  height: 800px;
+  border-right: 99.2vmax solid var(--fourth-color);
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  position: absolute;
+  margin-top: 150px;
+}
+
+#form-4 {
+  position: absolute;
+  margin-top: 190px;
+  width: 100%;
+  height: 800px;
+  border-right: 99.2vmax solid var(--secondary-color);
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+}
+
+#subjects {
+  margin-top: 400px;
+}
+
+.back-ground-2 {
+}
+
+.card-set {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.288);
+  color: var(--white-color);
+  padding: 20px;
+  position: relative;
+}
+
+.topics {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn-subject {
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+}
+
+.btn-subject a {
+  border-radius: 100px;
+  background-color: var(--white-color);
+  padding: 5px 8px;
+  color: var(--secondary-color);
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.btn-subject a:hover {
+  background-color: rgb(0, 132, 255) ;
+  color: var(--white-color);
+}
